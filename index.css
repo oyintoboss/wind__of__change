@@ -30,6 +30,14 @@ header{
     background: rgba(0,0,0,0.8);
 }
 
+/*-------- SVG ICON --------*/
+svg{
+    fill: #180c62;
+    font-size: 6rem;
+    cursor: pointer;
+}
+/*--x----- SVG ICON -----x--*/
+
 /*--x----- UNIVERSAL CSS -----x--*/
 
 /*-------- MAIN NAVIGATION SECTION --------*/
