@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RCCG | Champions Cathedral</title>
+    <title>DTHES-TEKH</title>
+    <!-------- TITLE ICON -------->
+    <link rel="icon" href="./assets/img/DTLOGO.ico">
+    <!--x----- TITLE ICON -----x-->
+
     <!-------- CSS STYLE LINK -------->
 <link rel="stylesheet" href="index.css">
 <!--x----- CSS STYLE LINK -----x-->
@@ -27,23 +31,21 @@
         <div class="nav__container">
             <nav class="nav__checkbox">
                 <a href="#" class="rccg__logo__box">
-                    <img src="./assets/Logo/rccg-logo.png" alt="RCCG Logo" class="rccg_logo">
+                    <img src="./assets/img/DTLOGO.jpg" alt="DTHES-TEKH Logo" class="dthes_tekh_logo rccg_logo">
                 </a>
-                <a href="#" class="yp6__logo__box">
+                <!-- <a href="#" class="yp6__logo__box">
                     <img src="./assets/Logo/cathedral_logo.jpg" alt="YP6 Logo" class="yp_6_logo">
-                </a>
+                </a> -->
                 <input type="checkbox" id="tab__nav" class="tab__nav">
                 <label for="tab__nav" class="tab__nav__label">Menu</label>
                 <ul class="tab__content">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Ministries</a></li>
-                    <li><a href="#">Sermon</a></li>
+                    <li><a href="#">Services</a></li>
                     <li><a href="#">Gallery</a></li>
+                    <li><a href="#">About Us</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
-                <input type="button" value="Online Giving" class="btn__giving">
+                <input type="button" value="BootCamp Registration" onclick="here();" class="btn_bootcamp_registration">
             </nav>
         </div>
     </header>
@@ -62,22 +64,24 @@
         <!-------- radio buttons end -------->        
         
         <!-------- SLIDE IMAGES START -------->
+       
+        <div class="slide">
+            <a href="#" class="btn__slide">School Training</a>
+            <img src="./assets/DTHES_TEKH_Img/Coding - 2.jpg" alt="">
+        </div>
+        <div class="slide">
+            <a href="#" class="btn__slide">Virtual Training</a>
+            <img src="./assets/DTHES_TEKH_Img/Online-Training.jpg" alt="">
+        </div>
         <div class="slide first">
-            <a href="#" class="btn__slide">Church Sermon</a>
-            <img src="./assets/Home/cathedral_entrance2.jpg" alt="">
+            <a href="#" class="btn__slide">Partnership Involvement</a>
+            <img src="./assets/DTHES_TEKH_Img/Bailiwick Partnership.jpg" alt="">
         </div>
         <div class="slide">
-            <a href="#" class="btn__slide">Online Giving</a>
-            <img src="./assets/Home/a__2.jpg" alt="">
+            <a href="#" class="btn__slide">Private Training</a>
+            <img src="./assets/DTHES_TEKH_Img/Private-Picture.jpg" alt="">
         </div>
-        <div class="slide">
-            <a href="#" class="btn__slide">Tithe and Offering</a>
-            <img src="./assets/Home/a__3.jpg" alt="">
-        </div>
-        <div class="slide">
-            <a href="#" class="btn__slide">Bible Club</a>
-            <img src="./assets/Home/a__4.jpg" alt="">
-        </div>
+             
         <!-------- SLIDE IMAGES END -------->
         <!-------- AUTOMATIC NAVIGATION START -------->
         <div class="navigation__auto">
@@ -107,17 +111,17 @@
 <!-------- WELCOME TO CHURCH COLUMN -------->
     <div class="welcome__to__church">
         <!-------- CHURCH INFORMATION IMAGES BOX -------->
-        <img src="./assets/Home/a__6.jpg" alt="" class="church__info__image">
+        <img src="./assets/img/p5.jpg" alt="" class="church__info__image">
         <!--x----- CHURCH INFORMATION IMAGES BOX -----x-->
 
         <!-------- INFORMATION TITLE -------->
-        <p class="info__title">Welcome to our Church</p>
+        <p class="info__title">School Achievements</p>
         <!-------- INFORMATION TITLE -------->
 
         <!-------- CHURCH INFORMATION DETAILS -------->
-        <div class="info__words"> <span class="church__info__details"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, ut quis
-            nostrum quibusdam tempore libero voluptas rerum repellendus nihil fuga 
-            assumenda quo, veritatis odit accusamus? Lorem ipsum dolor sit amet 
+        <div class="info__words"> <span class="church__info__details"></span> We achieve excellent result in every school because each children got a new opportunity to develop something nobody in this world have developed. Every 40 minutes we spend in every school we render our services to in 3 months develop a project,here is a <a href="https://www.linkedin.com/posts/dthes-tekh-b24a73209_python-school-students-activity-6785598300348301312-gjfc" target="_blank">link</a> to a project
+            <p></p>
+            <p></p>
         </div>
         <!-------- CHURCH INFORMATION DETAILS -------->
 
@@ -129,10 +133,10 @@
 
 <!-------- ABOUT US COLUMN -------->
     <div class="about__us">
-        <img src="./assets/Home/cathedral_entrance.jpg" alt="" class="church__info__image">
+        <img src="./assets/img/p2_1.jpg" alt="" class="church__info__image">
         <p class="info__title">About Us</p>
         <div class="info__words"> <span class="church__info__details"></span>
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quos, harum quae dolore ea debitis! Ab exercitationem aliquam corporis consectetur! Quaerat blanditiis explicabo hic saepe.
+            DTHES-TEKH is a technology company, which specialize in developing people who want to learn, improve and revolve their destiny with different kind of technologies. We introduce, teach and develop our students through an efficient and effective process advancing each step and not leaving anyone behind. 
         </div>
         <input type="button" value="Read More" class="btn__readmore">
     </div>
@@ -140,10 +144,13 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quos, harum qu
 
 <!-------- I AM NEW COLUMN -------->
     <div class="i__am__new"> 
-        <img src="./assets/Home/cathedral_3.jpg" alt="" class="church__info__image">
-        <p class="info__title">I am New</p>
+        <img src="./assets/img/p2.jpg" alt="" class="church__info__image">
+        <p class="info__title">Services</p>
         <div class="info__words"> <span class="church__info__details"></span>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, distinctio perspiciatis praesentium natus atque impedit sunt voluptatibus eveniet nemo molestias vero quo cupiditate facere nihil.
+            We specialise in training schools, organizations and online-training in different programming languages such as HTML, CSS, Scratch, SQL, etc. We have trained over 1,000 children and are currently at three (3) schools in Lagos and other states in Nigeria. 
+            <p></p>
+            
+            <p></p>
         </div>
         <input type="button" value="Read More" class="btn__readmore">
     </div>
@@ -156,46 +163,53 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, distincti
 <section class="our__visions">
 <div class="our__box__1">
     <h1 class="our__title">Our Vision</h1>
-    <div class="our__details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti repellendus autem fugit ad recusandae, excepturi consectetur suscipit vero in perspiciatis provident aut quibusdam reprehenderit alias.</div>
+    <div class="our__details">To build a community where new technologies such as robotics, coding, AI, website developers, and  mobile-developer is fully utilized for solving different kinds of problems in Africa by African children  from ages 5 – 25 and 25 years upward.</div>
 </div>
 <div class="our__box__2">
     <h1 class="our__title">Our Mission</h1>
-    <div class="our__details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti repellendus autem fugit ad recusandae, excepturi consectetur suscipit vero in perspiciatis provident aut quibusdam reprehenderit alias.</div>
+    <div class="our__details">In order to achieve our vision, we have on hand the best coding and programming professionals that will  ensure our goals of being the preferred programming company and in meeting all the diverse coding and  programming needs of all our customers.</div>
 </div>
 <div class="our__box__3">
-    <h1 class="our__title">Our Believe</h1>
-    <div class="our__details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti repellendus autem fugit ad recusandae, excepturi consectetur suscipit vero in perspiciatis provident aut quibusdam reprehenderit alias.</div>
+    <h1 class="our__title">Our Goals</h1>
+    <div class="our__details">
+        <ol>
+            <li> To teach computer-programming language to primary, secondary and tertiary school students. </li>
+        <li>
+            We introduce children to the latest trends in the IT world which are Artificial Intelligence, Robotics, IOT, etc
+        </li>
+        </ol>
+       </div>
 </div>
 </section>
 <!--x----- OUR VISION AND MISSION SECTION -----x-->
 
 <!-------- MEET OUR PASTORS SECTION -------->
 <section class="our__pastors">
-    <h1 class="pastors__title">meet our pastors</h1>
+    <h1 class="pastors__title">meet our team</h1>
     <div class="pastors__box">
     <div class="pastors__box__1">
-<img src="./assets/Home/a__2.jpg" alt="PICZ" class="pastor__image">
-<p class="pastor__name">Pastor XXXXXX  XXXXXX</p>
-<p class="pastor__post">XXXXXXX</p>
-<p class="pastor__parish">XXXXXXX</p>
+<img src="./assets/Team/Zacchaeus James.PNG" alt="Operational Manager" class="pastor__image">
+<p class="pastor__name">Zacchaeus James</p>
+<p class="pastor__post">Operational Manager</p>
+<p class="phone__number">+234-(706)-600-2811</p>
     </div>
     <div class="pastors__box__2">
         <img src="./assets/Home/a__2.jpg" alt="PICZ" class="pastor__image">
-        <p class="pastor__name">Pastor XXXXXX  XXXXXX</p>
-        <p class="pastor__post">XXXXXXX</p>
-        <p class="pastor__parish">XXXXXXX</p>
+        <p class="pastor__name">Alonge Oluwadamilare</p>
+        <p class="pastor__post">Facilitator/Developer</p>
+        <p class="phone__number">+234-(816)-201-6653</p>
             </div>
             <div class="pastors__box__3">
-                <img src="./assets/Home/a__2.jpg" alt="PICZ" class="pastor__image">
-                <p class="pastor__name">Pastor XXXXXX  XXXXXX</p>
-                <p class="pastor__post">XXXXXXX</p>
-                <p class="pastor__parish">XXXXXXX</p>
+                <img src="./assets/Team/tolu.JPG" alt="PICZ" class="pastor__image">
+                <p class="pastor__name">Abel Tolulope</p>
+                <p class="pastor__post">Office Manager</p>
+                <p class="phone__number">+234-(813)-474-4796</p>
                     </div>
                     <div class="pastors__box__4">
-                        <img src="./assets/Home/a__2.jpg" alt="PICZ" class="pastor__image">
-                        <p class="pastor__name">Pastor XXXXXX  XXXXXX</p>
-                        <p class="pastor__post">XXXXXXX</p>
-                        <p class="pastor__parish">XXXXXXX</p>
+                        <img src="./assets/Team/Faruq.jpg" alt="PICZ" class="pastor__image">
+                        <p class="pastor__name">Oladunjoye Faruq</p>
+                        <p class="pastor__post">Internship</p>
+                        <p class="phone__number">+234-(808)-589-7793</p>
                     </div>
     </div>
 </section>
@@ -207,19 +221,19 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, distincti
     <div class="connect__icons">
         
         <span>
-            <a href="https://web.facebook.com/championcathedral/?_rdc=1&_rdr">
+            <a href="https://www.facebook.com/dthestekhinstitute">
             <svg xmlns="http://www.w3.org/2000/svg" 
             width="0.88em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48c27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg></span>
             </a>
             <span>
-            <a href="https://twitter.com/rccgccmp?lang=en">
+            <a href="https://twitter.com/dthestekh">
             <svg xmlns="http://www.w3.org/2000/svg" 
             
              width="0.88em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3.6 10.4.8 15.8.8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34z"/></svg>
             </a>
             </span>
         <span>
-            <a href="https://www.instagram.com/rccgchampionscathedral/?hl=en">
+            <a href="https://www.instagram.com/dthestekh/">
             <svg xmlns="http://www.w3.org/2000/svg" 
             width="0.88em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512"><path d="M224 202.66A53.34 53.34 0 1 0 277.36 256A53.38 53.38 0 0 0 224 202.66zm124.71-41a54 54 0 0 0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31 6.43a54 54 0 0 0-30.41 30.41c-8.28 21-6.43 71.05-6.43 94.33s-1.85 73.27 6.47 94.34a54 54 0 0 0 30.41 30.41c21 8.29 71 6.43 94.31 6.43s73.24 1.93 94.3-6.43a54 54 0 0 0 30.41-30.41c8.35-21 6.43-71.05 6.43-94.33s1.92-73.26-6.43-94.33zM224 338a82 82 0 1 1 82-82a81.9 81.9 0 0 1-82 82zm85.38-148.3a19.14 19.14 0 1 1 19.13-19.14a19.1 19.1 0 0 1-19.09 19.18zM400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48zm-17.12 290c-1.29 25.63-7.14 48.34-25.85 67s-41.4 24.63-67 25.85c-26.41 1.49-105.59 1.49-132 0c-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61 0-132c1.29-25.63 7.07-48.34 25.85-67s41.47-24.56 67-25.78c26.41-1.49 105.59-1.49 132 0c25.63 1.29 48.33 7.15 67 25.85s24.63 41.42 25.85 67.05c1.49 26.32 1.49 105.44 0 131.88z"/></svg>
         </a>
@@ -230,23 +244,23 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, distincti
 
 <!-------- OUR SERVICES SECTION -------->
 <section class="our__services">
-    <h1 class="pastors__title">our services</h1>
+    <h1 class="pastors__title">our client</h1>
     <div class="pastors__box">
     <div class="pastors__box__1">
-<img src="./assets/Home/cathedral_2.jpg" alt="PICZ" class="pastor__image">
-<p class="service__name">Sunday Service</p>
+<img src="./assets/Client/Bailiwick.jpg" alt="PICZ" class="services__names">
+<p class="service__name">Bailiwick School</p>
     </div>
     <div class="pastors__box__2">
-        <img src="./assets/Home/cathedral_3.jpg" alt="PICZ" class="pastor__image">
-        <p class="service__name">Weekend Service</p>
+        <img src="./assets/Client/lohims.jpg" alt="PICZ" class="services__names">
+        <p class="service__name">Lohims School</p>
             </div>
             <div class="pastors__box__3">
-                <img src="./assets/Home/cathedral_entrance2.jpg" alt="PICZ" class="pastor__image">
-                <p class="service__name">Mid-Week Service</p>
+                <img src="./assets/Client/county.jpg" alt="PICZ" class="services__names">
+                <p class="service__name">County School</p>
                     </div>
                     <div class="pastors__box__4">
-                        <img src="./assets/Home/catherdal_4.jpg" alt="PICZ" class="pastor__image">
-                        <p class="service__name">Workers Retreat</p>
+                        <img src="./assets/Client/Kiddies Realm.jpg" alt="PICZ" class="services__names">
+                        <p class="service__name">Kiddies Realm</p>
                     </div>
     </div>
 </section>
@@ -256,26 +270,31 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, distincti
 <footer>
     <div class="first__row">
         <div class="woc">
-            <img src="./assets/Logo/rccg-logo.png" alt="Rccg-logo" class="rccg_logo">
-            <p class="church__name">Champions cathedral, RCCG</p>
+            <img src="./assets/img/DTLOGO.jpg" alt="DTHES-TEKH Logo" class="dthes_tekh_logo">
+            <p class="church__name">DTHES-TEKH INSTITUTE</p>
         </div>
         <div class="locate__us">
             <h1>Locate Us</h1>
-            <p class="address">RCCG Champions Cathedral, Airport Road, Warri.</p>
+            <p class="address">First floor, Jubilee Bank building, Redemption Camp.</p>
         </div>
         <div class="facebook__feeds">
             <h1>Upcoming Events</h1>
-<p>Facebook Feeds Link</p>
+<p>123 for Robotics</p>
         </div>
     </div>
     <div class="second__row">
-        <p class="reserved">2021 Welcome to Champions cathedral. All right reserved and Developed by <a href="https://www.dthes-tekh.com/">DTHES-TEKH</a> </p>
+        <p class="reserved">2021 Welcome to DTHES-TEKH </p>
     </div>
 </footer>
 <!--x----- FOOTER SECTION -----x-->
 
 </div>
 <!--x----- WRAPPER CONTAINER END -----x-->
+<script>
+    function here(){
+        alert("I am Here");
+    }
+</script>
 
 <!-------- AUTOMATIC NAVIGATION SCRIPT ---------->
 <script>
